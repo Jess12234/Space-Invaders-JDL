@@ -56,6 +56,26 @@ class GameOverScene: SKScene {
     
     func createContent() {
         
+        func makeInvader(ofType invaderType: InvaderType) -> SKNode {
+            // 1
+            var invaderColor: SKColor
+            
+            switch(invaderType) {
+            case .a:
+                invaderColor = SKColor.red
+            case .b:
+                invaderColor = SKColor.green
+            case .c:
+                invaderColor = SKColor.blue
+            }
+            
+            // 2
+            let invader = SKSpriteNode(color: invaderColor, size: InvaderType.size)
+            invader.name = InvaderType.name
+            
+            return invader
+        }
+        
         let gameOverLabel = SKLabelNode(fontNamed: "Courier")
         gameOverLabel.fontSize = 50
         gameOverLabel.fontColor = SKColor.white
