@@ -23,24 +23,10 @@ import UIKit
 import SpriteKit
 
 class GameOverScene: SKScene {
-   
+    
     // Private GameScene Properties
     
     var contentCreated = false
-    
-    enum InvaderType {
-        case a
-        case b
-        case c
-        
-        static var size: CGSize {
-            return CGSize(width: 24, height: 16)
-        }
-        
-        static var name: String {
-            return "invader"
-        }
-    }
     
     // Object Lifecycle Management
     
@@ -55,26 +41,6 @@ class GameOverScene: SKScene {
     }
     
     func createContent() {
-        
-        func makeInvader(ofType invaderType: InvaderType) -> SKNode {
-            // 1
-            var invaderColor: SKColor
-            
-            switch(invaderType) {
-            case .a:
-                invaderColor = SKColor.red
-            case .b:
-                invaderColor = SKColor.green
-            case .c:
-                invaderColor = SKColor.blue
-            }
-            
-            // 2
-            let invader = SKSpriteNode(color: invaderColor, size: InvaderType.size)
-            invader.name = InvaderType.name
-            
-            return invader
-        }
         
         let gameOverLabel = SKLabelNode(fontNamed: "Courier")
         gameOverLabel.fontSize = 50
@@ -94,10 +60,8 @@ class GameOverScene: SKScene {
         
         // black space color
         self.backgroundColor = SKColor.black
-
+        
     }
-    
-
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
@@ -106,7 +70,7 @@ class GameOverScene: SKScene {
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?)  {
         
     }
-
+    
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         
     }
