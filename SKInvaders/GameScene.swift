@@ -74,8 +74,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     let kInvaderGridSpacing = CGSize(width: 12, height: 12)
-    let kInvaderRowCount = 6
-    let kInvaderColCount = 6
+    let kInvaderRowCount = 5
+    let kInvaderColCount = 5
     
     let kShipSize = CGSize(width: 30, height: 16)
     let kShipName = "ship"
