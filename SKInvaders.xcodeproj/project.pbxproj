@@ -21,16 +21,16 @@
 		29C4772F2264D061007CFD2D /* InvaderC_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C4772E2264D061007CFD2D /* InvaderC_00.png */; };
 		29C477312264D073007CFD2D /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C477302264D073007CFD2D /* Ship.png */; };
 		29C477332264D078007CFD2D /* Ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C477322264D078007CFD2D /* Ship@2x.png */; };
+		29C477352264DB99007CFD2D /* SpiderHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C477342264DB99007CFD2D /* SpiderHit.mp3 */; };
+		29C477372264DC6A007CFD2D /* SpiderBullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C477362264DC6A007CFD2D /* SpiderBullet.mp3 */; };
+		29C477392264DD59007CFD2D /* BottleSpray.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C477382264DD59007CFD2D /* BottleSpray.mp3 */; };
+		29C4773B2264DE09007CFD2D /* SprayHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C4773A2264DE09007CFD2D /* SprayHit.mp3 */; };
 		CDF079D01975428800FFAB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF079CF1975428800FFAB46 /* AppDelegate.swift */; };
 		CDF079D41975428800FFAB46 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF079D31975428800FFAB46 /* GameScene.swift */; };
 		CDF079D61975428800FFAB46 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF079D51975428800FFAB46 /* GameViewController.swift */; };
 		CDF079D91975428800FFAB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF079D71975428800FFAB46 /* Main.storyboard */; };
 		CDF079DB1975428800FFAB46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF079DA1975428800FFAB46 /* Images.xcassets */; };
 		CDF07A061975453100FFAB46 /* AssetLicensingNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDF079F11975453100FFAB46 /* AssetLicensingNotes.txt */; };
-		CDF07A071975453100FFAB46 /* InvaderBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDF079F31975453100FFAB46 /* InvaderBullet.wav */; };
-		CDF07A081975453100FFAB46 /* InvaderHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDF079F41975453100FFAB46 /* InvaderHit.wav */; };
-		CDF07A091975453100FFAB46 /* ShipBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDF079F51975453100FFAB46 /* ShipBullet.wav */; };
-		CDF07A0A1975453100FFAB46 /* ShipHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDF079F61975453100FFAB46 /* ShipHit.wav */; };
 		CDF07A1A1975510100FFAB46 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF07A191975510100FFAB46 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +49,10 @@
 		29C4772E2264D061007CFD2D /* InvaderC_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InvaderC_00.png; path = ../../../../InvaderC_00.png; sourceTree = "<group>"; };
 		29C477302264D073007CFD2D /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ship.png; path = ../../../../Ship.png; sourceTree = "<group>"; };
 		29C477322264D078007CFD2D /* Ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ship@2x.png"; path = "../../../../Ship@2x.png"; sourceTree = "<group>"; };
+		29C477342264DB99007CFD2D /* SpiderHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpiderHit.mp3; sourceTree = "<group>"; };
+		29C477362264DC6A007CFD2D /* SpiderBullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpiderBullet.mp3; sourceTree = "<group>"; };
+		29C477382264DD59007CFD2D /* BottleSpray.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BottleSpray.mp3; sourceTree = "<group>"; };
+		29C4773A2264DE09007CFD2D /* SprayHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SprayHit.mp3; sourceTree = "<group>"; };
 		CDF079CA1975428800FFAB46 /* SKInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF079CE1975428800FFAB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF079CF1975428800FFAB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,10 +61,6 @@
 		CDF079D81975428800FFAB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF079DA1975428800FFAB46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDF079F11975453100FFAB46 /* AssetLicensingNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AssetLicensingNotes.txt; sourceTree = "<group>"; };
-		CDF079F31975453100FFAB46 /* InvaderBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = InvaderBullet.wav; sourceTree = "<group>"; };
-		CDF079F41975453100FFAB46 /* InvaderHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = InvaderHit.wav; sourceTree = "<group>"; };
-		CDF079F51975453100FFAB46 /* ShipBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShipBullet.wav; sourceTree = "<group>"; };
-		CDF079F61975453100FFAB46 /* ShipHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShipHit.wav; sourceTree = "<group>"; };
 		CDF07A191975510100FFAB46 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,10 +127,10 @@
 		CDF079F21975453100FFAB46 /* Sound Effects */ = {
 			isa = PBXGroup;
 			children = (
-				CDF079F31975453100FFAB46 /* InvaderBullet.wav */,
-				CDF079F41975453100FFAB46 /* InvaderHit.wav */,
-				CDF079F51975453100FFAB46 /* ShipBullet.wav */,
-				CDF079F61975453100FFAB46 /* ShipHit.wav */,
+				29C477342264DB99007CFD2D /* SpiderHit.mp3 */,
+				29C477362264DC6A007CFD2D /* SpiderBullet.mp3 */,
+				29C477382264DD59007CFD2D /* BottleSpray.mp3 */,
+				29C4773A2264DE09007CFD2D /* SprayHit.mp3 */,
 			);
 			path = "Sound Effects";
 			sourceTree = "<group>";
@@ -216,26 +216,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C4773B2264DE09007CFD2D /* SprayHit.mp3 in Resources */,
 				29C4772F2264D061007CFD2D /* InvaderC_00.png in Resources */,
-				CDF07A0A1975453100FFAB46 /* ShipHit.wav in Resources */,
+				29C477372264DC6A007CFD2D /* SpiderBullet.mp3 in Resources */,
 				CDF079DB1975428800FFAB46 /* Images.xcassets in Resources */,
 				29C477132264CEE0007CFD2D /* InvaderA_00.png in Resources */,
-				CDF07A081975453100FFAB46 /* InvaderHit.wav in Resources */,
 				29C477152264CEF1007CFD2D /* InvaderA_00@2x.png in Resources */,
 				CDF07A061975453100FFAB46 /* AssetLicensingNotes.txt in Resources */,
 				29C477192264CF1A007CFD2D /* InvaderA_01.png in Resources */,
+				29C477392264DD59007CFD2D /* BottleSpray.mp3 in Resources */,
 				29C4771B2264CF25007CFD2D /* InvaderA_01@2x.png in Resources */,
 				29C477212264CFB4007CFD2D /* InvaderB_00.png in Resources */,
 				29C477202264CFB4007CFD2D /* InvaderB_01.png in Resources */,
 				29C477222264CFB4007CFD2D /* InvaderB_01@2x.png in Resources */,
 				29C4772B2264D005007CFD2D /* InvaderC_01@2x.png in Resources */,
 				29C477282264D005007CFD2D /* InvaderC_00@2x.png in Resources */,
-				CDF07A091975453100FFAB46 /* ShipBullet.wav in Resources */,
 				29C477332264D078007CFD2D /* Ship@2x.png in Resources */,
 				CDF079D91975428800FFAB46 /* Main.storyboard in Resources */,
+				29C477352264DB99007CFD2D /* SpiderHit.mp3 in Resources */,
 				29C477232264CFB4007CFD2D /* InvaderB_00@2x.png in Resources */,
 				29C4772A2264D005007CFD2D /* InvaderC_01.png in Resources */,
-				CDF07A071975453100FFAB46 /* InvaderBullet.wav in Resources */,
 				29C477312264D073007CFD2D /* Ship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

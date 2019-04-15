@@ -363,7 +363,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     bullet: bullet,
                     toDestination: bulletDestination,
                     withDuration: 2.0,
-                    andSoundFileName: "InvaderBullet.wav"
+                    andSoundFileName: "SpiderBullet.mp3"
                 )
             }
         }
@@ -500,7 +500,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     bullet: bullet,
                     toDestination: bulletDestination,
                     withDuration: 1.0,
-                    andSoundFileName: "ShipBullet.wav"
+                    andSoundFileName: "BottleSpray.mp3"
                 )
             }
         }
@@ -532,7 +532,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         if nodeNames.contains(kShipName) && nodeNames.contains(kInvaderFiredBulletName) {
         
-            run(SKAction.playSoundFileNamed("ShipHit.wav", waitForCompletion: false))
+            run(SKAction.playSoundFileNamed("SprayHit.mp3", waitForCompletion: false))
             
             adjustShipHealth(by: -0.334)
             
@@ -559,7 +559,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             
         } else if nodeNames.contains(InvaderType.name) && nodeNames.contains(kShipFiredBulletName) {
       
-            run(SKAction.playSoundFileNamed("InvaderHit.wav", waitForCompletion: false))
+            run(SKAction.playSoundFileNamed("SpiderHit.mp3", waitForCompletion: false))
             contact.bodyA.node!.removeFromParent()
             contact.bodyB.node!.removeFromParent()
             
