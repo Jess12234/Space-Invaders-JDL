@@ -25,6 +25,7 @@
 		29C477372264DC6A007CFD2D /* SpiderBullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C477362264DC6A007CFD2D /* SpiderBullet.mp3 */; };
 		29C477392264DD59007CFD2D /* BottleSpray.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C477382264DD59007CFD2D /* BottleSpray.mp3 */; };
 		29C4773B2264DE09007CFD2D /* SprayHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C4773A2264DE09007CFD2D /* SprayHit.mp3 */; };
+		29EF21D82264EFFB004C67CB /* Bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29EF21D72264EFFB004C67CB /* Bgmusic.mp3 */; };
 		CDF079D01975428800FFAB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF079CF1975428800FFAB46 /* AppDelegate.swift */; };
 		CDF079D41975428800FFAB46 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF079D31975428800FFAB46 /* GameScene.swift */; };
 		CDF079D61975428800FFAB46 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF079D51975428800FFAB46 /* GameViewController.swift */; };
@@ -53,6 +54,7 @@
 		29C477362264DC6A007CFD2D /* SpiderBullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpiderBullet.mp3; sourceTree = "<group>"; };
 		29C477382264DD59007CFD2D /* BottleSpray.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BottleSpray.mp3; sourceTree = "<group>"; };
 		29C4773A2264DE09007CFD2D /* SprayHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SprayHit.mp3; sourceTree = "<group>"; };
+		29EF21D72264EFFB004C67CB /* Bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bgmusic.mp3; path = ../../../../../Downloads/Bgmusic.mp3; sourceTree = "<group>"; };
 		CDF079CA1975428800FFAB46 /* SKInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF079CE1975428800FFAB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF079CF1975428800FFAB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		CDF079F21975453100FFAB46 /* Sound Effects */ = {
 			isa = PBXGroup;
 			children = (
+				29EF21D72264EFFB004C67CB /* Bgmusic.mp3 */,
 				29C477342264DB99007CFD2D /* SpiderHit.mp3 */,
 				29C477362264DC6A007CFD2D /* SpiderBullet.mp3 */,
 				29C477382264DD59007CFD2D /* BottleSpray.mp3 */,
@@ -220,6 +223,7 @@
 				29C4772F2264D061007CFD2D /* InvaderC_00.png in Resources */,
 				29C477372264DC6A007CFD2D /* SpiderBullet.mp3 in Resources */,
 				CDF079DB1975428800FFAB46 /* Images.xcassets in Resources */,
+				29EF21D82264EFFB004C67CB /* Bgmusic.mp3 in Resources */,
 				29C477132264CEE0007CFD2D /* InvaderA_00.png in Resources */,
 				29C477152264CEF1007CFD2D /* InvaderA_00@2x.png in Resources */,
 				CDF07A061975453100FFAB46 /* AssetLicensingNotes.txt in Resources */,

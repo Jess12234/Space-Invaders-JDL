@@ -112,6 +112,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         setupHud()
         
         self.backgroundColor = SKColor.black
+        
+        let backgroundMusic = SKAudioNode(fileNamed: "Bgmusic.mp3")
+        backgroundMusic.autoplayLooped = true
+        addChild(backgroundMusic)
     }
     
     func loadInvaderTextures(ofType invaderType: InvaderType) -> [SKTexture] {
@@ -207,11 +211,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func setupHud() {
-        let scoreLabel = SKLabelNode(fontNamed: "Courier")
+        let scoreLabel = SKLabelNode(fontNamed: "MarkerFelt-Thin")
         scoreLabel.name = kScoreHudName
         scoreLabel.fontSize = 25
         
-        scoreLabel.fontColor = SKColor.green
+        scoreLabel.fontColor = SKColor.white
         scoreLabel.text = String(format: "Score: %04u", 0)
         
         scoreLabel.position = CGPoint(
@@ -220,7 +224,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         )
         addChild(scoreLabel)
         
-        let healthLabel = SKLabelNode(fontNamed: "Courier")
+        let healthLabel = SKLabelNode(fontNamed: "MarkerFelt-Thin")
         healthLabel.name = kHealthHudName
         healthLabel.fontSize = 25
         
@@ -267,7 +271,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             bullet.physicsBody!.contactTestBitMask = kInvaderCategory
             bullet.physicsBody!.collisionBitMask = 0x0
         case .invaderFired:
-            bullet = SKSpriteNode(color: SKColor.magenta, size: kBulletSize)
+            bullet = SKSpriteNode(color: SKColor.white, size: kBulletSize)
             bullet.name = kInvaderFiredBulletName
             
             bullet.physicsBody = SKPhysicsBody(rectangleOf: bullet.frame.size)
@@ -499,7 +503,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 fireBullet(
                     bullet: bullet,
                     toDestination: bulletDestination,
-                    withDuration: 1.0,
+                    withDuration: 0.9,
                     andSoundFileName: "BottleSpray.mp3"
                 )
             }
@@ -583,6 +587,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 stop.pointee = true
             }
         }
+        
         
         let ship = childNode(withName: kShipName)
         
